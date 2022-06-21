@@ -1,0 +1,214 @@
+* {   
+    margin: 0px;   
+    padding: 0px; 
+}
+#agrupar{
+width: 100%;
+height: auto;
+padding: 10px;
+}
+#cabecera{
+    width: 95.5%;
+    height: auto;
+    background-color: rgba(229, 149, 149, 0.212);
+    padding: 20px;
+}
+#cabecera h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#cabecera nav{
+    background-color: rgba(224, 215, 233, 0.014);
+    height: 10%;
+    width: 100%;
+    border: 2px solid black;
+}
+#cabecera nav li{
+    padding-top: 1.8%;
+    display: inline-block;
+    list-style: none; 
+    color: rgba(77, 69, 69, 0.651);
+    padding-left: 40px;
+    font-size: 20px;
+
+}
+#cabecera nav li a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+#cabecera form {
+    height: 60px; 
+    width: 25%;
+    float: right;
+}
+#cabecera form input[type="text"]{
+    margin-top: 10px;
+    padding: 10px;
+}
+#cabecera form  input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    float: right;
+}
+section , article , .descripcion , .ingredientes, .elaboracion{
+    display: block;
+}
+#principal{
+    float: left;
+    width: 70%;
+    padding-top: 30px;
+    background-color: rgb(209, 142, 142);
+    margin-left: 1%;
+}
+#principal h2{
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+#principal1{
+    float: left;
+    width: 98.5%;
+   
+}
+#principal #receta{
+    
+     width: auto;
+     height: 400px;
+
+}
+#principal #receta .descripcion p{
+    padding: 10px 10px 10px 10px;
+}
+#principal #receta .ingredientes{
+    float: left;
+    width: 300px;
+    
+    height: auto;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 10px;
+}
+#principal #receta .ingredientes li{
+  list-style: none;
+}
+#principal #receta .elaboracion{
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+    
+    float: right;
+    margin-right: 50px;
+    padding: 15px;
+    margin-left: 15px;
+}
+#principal1 fieldset legend{
+    font-size: 20px;
+    margin-left: 15px;
+}
+#principal #receta fieldset legend{
+  font-size: 18px;
+}
+#principal #receta fieldset{
+    margin: 20px 0px 10px 10px;
+    padding-bottom: 20px
+}
+/*parte de la receta 2*/
+#principal #receta2{
+    background-color: grey;
+    width: auto;
+    height: 780px;
+
+}
+#principal #receta2 .ingredientes{
+   float: left;
+   width: 200px;
+   background-color: darkslateblue;
+   height: auto;
+   margin-top: 20px;
+   margin-left: 25px;
+   margin-right: 10px;
+   padding: 10px;
+}
+#principal #receta2 .ingredientes li{
+ list-style: none;
+}
+#principal #receta2 .elaboracion{
+   margin-top: 20px;
+   width: 300px;
+   height: auto;
+   background-color: cadetblue;
+   float: right;
+   margin-right: 50px;
+   margin-bottom: 15px;
+   padding: 25px;
+}
+#principal #receta2 .descripcion p{
+    padding: 10px 10px 10px 10px;
+}
+/*parte de la receta pecado*/
+#principal #receta3{
+    background-color: grey;
+    width: auto;
+    height: 620px;
+
+}
+#principal #receta3 .ingredientes{
+   float: left;
+   width: 200px;
+   background-color: rgb(180, 159, 212);
+   height: auto;
+   margin-top: 20px;
+   margin-left: 35px;
+}
+#principal #receta3 .ingredientes li{
+ list-style: none;
+}
+#principal #receta3 .elaboracion{
+   margin-top: 20px;
+   width: 300px;
+   height: auto;
+   background-color: rgba(19, 223, 230, 0.884);
+   float: right;
+   margin-right: 100px;
+}
+#principal #receta3 .descripcion p{
+    padding: 10px 10px 10px 10px;
+}
+#principal #receta4{
+    margin-top: 20px;
+    background-color: rgba(60, 172, 180, 0.623);
+    width: auto;
+    height: 200px;
+
+}
+
+#lateral{
+float: left;
+width: 25%;
+height: 1200px ;
+background-color: rgb(107, 221, 196);
+padding: 10px;
+padding-left: 30px;
+border-left: 2px solid gray;
+}
+#infoadicional p{
+    text-align: center;
+    padding: 20px;
+}
+#infoadicional caption{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#infoadicinal img{
+  margin-left: 30px;
+}
+#pie{
+    margin-top: 1500px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 20px 10px;
+    border-top: 2px solid #999999;
+    background-color: goldenrod;
+}
